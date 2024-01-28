@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get In Touch - Utest</title>
+</head>
+<body style="background:lightblue">
+  
+	<h1 style="text-align: center; background: orange; text-decoration: none"><strong><a href="donate.html"><button href="file:///home/navdon/donate_page.html"; style="text-align: middle; width: 150px; height: 50px">Donate</button> <a href="home.html" style="text-decoration:none; color: black"></a>Welcome to </strong> UTested</a> <a href="tests.html"><button href="tests.html" style="width:150px; text-decoration: none; height:50px; text-align:middle">Tests near you</button></a></h1>
+  <h1 style="font-style: Courier New; background: cyan;"> <u>Get In Touch with Us!</u></h1>
+  <h2>Email Us</h2>
+  <form>
+    <input type="text" name="fname" placeholder = "John Doe" required> </input><br>
+  <input type="text" name="femail" placeholder = "Example@Example.com" style = "width: 200px; height: 40px;" required> </input><br>
+  <input type="text" name="feedback" placeholder = "Message here" style = "width: 500px; height: 100px" required><br>
+  	<input type="checkbox" name="email"> Yes! I would like to recieve newsletters from UTEST.com</input> 
+<br>
+<input type="checkbox" name="accept" required>I accept the <a href="donate.html"> terms and conditions</a>
+<p id="a"></p>
+<script>
+  function Thanks(){
+    document.getElementById("a").innerHTML = "Thank you for your feedback. We will reply to you soon.";
+  }
+</script>
+<button onclick="Thanks()" href="thanks.html">Submit</button>
+</form>
+<footer>
+  <h2><u>Or, Call us toll free</u></h2>
+ <form>
+  <h3 style="border: solid 10px; background-color: gray; border-color: gray">I am not a robot <input type="checkbox" style="width: 20px; height: 20px;" required></input> </h3>
+  <button href="phonenum.html">Verify</button></form>
+  <h2>Follow Us on Social Media</h2>
+  <a href="facebook.com"><img src="https://image.flaticon.com/icons/png/512/124/124010.png" style = "width:100px;height:100px"></img>    </a>
+<a href="twitter.com"><img src="https://image.flaticon.com/icons/png/512/124/124021.png" style = "width:100px;height:100px"></img></a>
+<a href="instagram.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/600px-Instagram-Icon.png" style = "width:100px;height:100px"></img></a>
+</footer>
+</body>
+</html>

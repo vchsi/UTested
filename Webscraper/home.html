@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+	<html>
+		<style type="text/css">
+			body{
+				background-color: lightblue
+			}
+			h1{
+				border: solid 1px;
+			}
+		</style>
+		<body>
+
+	<h1 style="text-align: center; background: orange; text-decoration: none"><strong><a href="donate.html"><button href="file:///home/navdon/donate_page.html"; style="text-align: middle; width: 150px; height: 50px">Donate</button> <a href="home.html" style="text-decoration:none; color: black"></a>Welcome to </strong> UTested</a> <a href="tests.html"><button href="tests.html" style="width:150px; text-decoration: none; height:50px; text-align:middle">Tests near you</button></a></h1>
+			<h2>About Us</h2>
+		<p style="font-family:courier;" >UTested is a crowdsourcing app for the average person to know nearby testing sites for Covid-19.</p>
+		<h1>Why should I care?</h1>
+		<p style="font-size: 10"> Getting tested and vaccinated is what imporatant to being Covid-19 safe to not only you but the enviournment. For more information please visit links below to Covid-19 safety measures. Stay safe, get tested and wear your seatbealt - together we can get through this</p>
+			<h2>List of Causes you can fundraise</h2>
+		<h1>How can I help?</h1>
+		<p></p>
+		<p style="font-family: Times New Roman, Arial">By donating just $10 dollars, you can save a life of a vulnerable person. We're not joking. Donate $10 by clicking this link</p>
+			<h2 style="color: blue"><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/keythingstoknow.html">Learn More by clicking Here</a>. Thank you for your support</h2>
+
+		<h1>More Info</h1>
+		<p style="font-family:courier;" ><a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html" target="_blank">How Covid 19 spreads by the CDC</a>
+</p>
+
+		<p style="font-family:courier;" ><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters" target="_blank">Who is most at risk by the WHO</a>
+		</p>
+
+		<p style="font-family:courier;" ><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" target="_blank">Symptoms of Covid-19 by the CDC</a>
+
+      <h5> need more support?<a href="getintouch.html"> Contact us here! </a></h5>
+<button onclick="doIT()">Check If you have COVID and are eligible for a vaccine</button>
+<script> 
+	function doIT(){
+		window.alert('Take a quick servey to see if YOU are positive for Covid-19 and eligible for testing and vaccination.');
+	  window.alert('Answer YES or NO to following questions');
+	  do {
+	  var symptoms3 = prompt("Have you been in close contact with a person who is positive for Covid-19 for 15 minutes for the past 14 days? Answer YES or NO");
+	  }
+	while (symptoms3 != 'YES' && symptoms3 != 'NO');
+	  do {
+	  var symptoms2 = prompt("Do you have cough/sore throat/chills/nuasea/cold sweats/loss of taste or smell? Answer YES or NO.");
+	   }
+	while (symptoms2 != 'YES' && symptoms2 != "NO");
+	 do {
+	  var age = prompt('How many years old are you');
+	}
+	while (age < 3);
+	if (symptoms3 = 'YES' || symptoms2 != 'YES') {
+	  greeting1 = "You are probably positive for Covid-19 and should get tested.";
+	} else {
+	  greeting1 = "You are Covid-19 negetive.";
+	}
+	if (age > 17) {
+	  greeting2 = "You are eligible for the Covid-19 vaccine.";
+	} else {
+	  greeting2 = "You are not eligible for the Covid-19 vaccine.";
+	} 
+	window.alert(greeting1 + ' ' + greeting2);
+}
+          </script>
+          </body>
+	</html>
